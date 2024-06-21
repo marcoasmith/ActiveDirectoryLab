@@ -7,7 +7,7 @@ The end goal of this home lab to set up Active Directory, including creating use
 1. Download and install Oracle VirtualBox 
 2. Download Windows 10 and Server 2019 ISOs
 
-![Install Active Directory Domain Services](path/to/screenshot1.png)
+![Install Active Directory Domain Services](https://i.imgur.com/Yugllvp.png)
 
 ## Step 2: Create and Configure VM for DC
 
@@ -33,7 +33,7 @@ The end goal of this home lab to set up Active Directory, including creating use
 2. Add a new forest to create domain
 
 
-![Set Up DHCP Server](path/to/screenshot4.png)
+![Set Up DHCP Server](https://i.imgur.com/mkj2jok.png)
 
 ## Step 5: Install RAS/NAT
 
