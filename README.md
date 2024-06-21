@@ -15,7 +15,7 @@ The end goal of this home lab to set up Active Directory, including creating use
 2. Configure network settings
 3. Install Server 2019 on the Domain Controller virtual machine 
 
-![Configure Active Directory Domain Services](path/to/screenshot2.png)
+![Configure Active Directory Domain Services](https://i.imgur.com/sYJAX8D.png)
 
 ## Step 3: Set up IP addressing for NICs 
 
@@ -67,6 +67,8 @@ The end goal of this home lab to set up Active Directory, including creating use
 1. Create and configure client VM
 2. Use Windows 10 ISO file
 3. Choose internal network adapter
+
+![Join a Client to the Domain](https://i.imgur.com/ojTXxl5.png)
    
 ## Step 9: Client machine to Domain 
 
