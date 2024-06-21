@@ -1,6 +1,6 @@
 # Implementing Active Directory
 
-The end goal of this home lab to set up Active Directory, including creating users and configuring the environment. Below are the key steps with corresponding screenshots.
+The end goal of this home lab is to set up Active Directory, including creating users, and configuring the environment. Below are the key steps with corresponding screenshots.
 
 ## Step 1: Download and Install Resources
 
