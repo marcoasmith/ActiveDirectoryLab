@@ -60,7 +60,7 @@ The end goal of this home lab to set up Active Directory, including creating use
 2. Allows users to access domain and resources
    
 
-![Join a Client to the Domain](path/to/screenshot5.png)
+![Join a Client to the Domain](https://i.imgur.com/Yhd3pVf.png)
 
 ## Step 8: Create Client VM
 
@@ -76,7 +76,7 @@ The end goal of this home lab to set up Active Directory, including creating use
 
 
 
-![Join a Client to the Domain](path/to/screenshot5.png)
+![Join a Client to the Domain](https://i.imgur.com/O7So2XT.png)
 
 ## Summary
 
