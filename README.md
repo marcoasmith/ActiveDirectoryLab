@@ -51,7 +51,7 @@ The end goal of this home lab to set up Active Directory, including creating use
 2. Scope was set for IP address given to clients
    
 
-![Join a Client to the Domain](path/to/screenshot5.png)
+![Join a Client to the Domain](https://i.imgur.com/klK5MLS.png)
 
 
 ## Step 7: PowerShell Script
