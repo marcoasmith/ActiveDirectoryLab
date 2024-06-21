@@ -56,16 +56,29 @@ The end goal of this home lab to set up Active Directory, including creating use
 
 ## Step 7: PowerShell Script
 
-1.  Use a powershell script to create multiple user accounts in Active Directory
-2. 
-3. 
+1. Use a powershell script to create multiple user accounts in Active Directory
+2. Allows users to access domain and resources
+   
 
 ![Join a Client to the Domain](path/to/screenshot5.png)
 
+## Step 8: Create Client VM
 
+1. Create and configure client VM
+2. Use Windows 10 ISO file
+3. Choose internal network adapter
+   
+## Step 9: Client machine to Domain 
+
+1. Join the client machine to the domain
+2. Log in to the client machine using a domain user account 
+
+
+
+
+![Join a Client to the Domain](path/to/screenshot5.png)
 
 ## Summary
 
 This project demonstrates the basic steps involved in setting up Active Directory, configuring DHCP, and joining a client to the domain. The steps outlined above ensure a functioning Active Directory environment for managing users and resources.
 
-For detailed instructions and additional configurations, refer to the official Microsoft documentation.
