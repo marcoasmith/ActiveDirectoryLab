@@ -25,7 +25,7 @@ The end goal of this home lab to set up Active Directory, including creating use
    
    
 
-![Create Organizational Units and Users](path/to/screenshot3.png)
+![Create Organizational Units and Users](https://i.imgur.com/grNwz5p.png)
 
 ## Step 4: Install Active Directory and Create Domain
 
