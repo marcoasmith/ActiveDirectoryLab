@@ -2,43 +2,67 @@
 
 The end goal of this home lab to set up Active Directory, including creating users and configuring the environment. Below are the key steps with corresponding screenshots.
 
-## Step 1: Install Active Directory Domain Services
+## Step 1: Download and Install Resources
 
-1. Open the Server Manager and navigate to `Add Roles and Features`.
-2. Select `Active Directory Domain Services` and proceed with the installation.
+1. Download and install Oracle VirtualBox 
+2. Download Windows 10 and Server 2019 ISOs
 
 ![Install Active Directory Domain Services](path/to/screenshot1.png)
 
-## Step 2: Configure Active Directory Domain Services
+## Step 2: Create and Configure VM for DC
 
-1. After the installation, promote the server to a domain controller.
-2. Follow the wizard to create a new forest and domain (e.g., `mydomain.com`).
+1. Create a virtual machine for the domain controller 
+2. Configure network settings
+3. Install Server 2019 on the Domain Controller virtual machine 
 
 ![Configure Active Directory Domain Services](path/to/screenshot2.png)
 
-## Step 3: Create Organizational Units and Users
+## Step 3: Set up IP addressing for NICs 
 
-1. Open `Active Directory Users and Computers`.
-2. Create a new Organizational Unit (OU) for users and admins.
-3. Create new user accounts within the respective OUs.
+1. Domain controller VM has two NICS from configuratiom
+2. One has IP address automatically given using DHCP
+3. Assign IP address to internal NIC
+   
+   
 
 ![Create Organizational Units and Users](path/to/screenshot3.png)
 
-## Step 4: Set Up DHCP Server
+## Step 4: Install Active Directory and Create Domain
 
-1. Open the Server Manager and navigate to `Add Roles and Features`.
-2. Select `DHCP Server` and proceed with the installation.
-3. Configure a new DHCP scope to allocate IP addresses.
+1. Choose server to install active directory
+2. Add a new forest to create domain
+
 
 ![Set Up DHCP Server](path/to/screenshot4.png)
 
-## Step 5: Join a Client to the Domain
+## Step 5: Install RAS/NAT
 
-1. On a client machine, open `System Properties` and change the computer name.
-2. Join the computer to the newly created domain (e.g., `mydomain.com`).
-3. Restart the computer and log in with a domain user account.
+1. Allows client to be on virtual network
+2. Allows client to access interent through domain controller 
+
 
 ![Join a Client to the Domain](path/to/screenshot5.png)
+
+
+
+## Step 6: Set up DHCP server for Clients
+
+1. Allows client to get an IP address automatically 
+2. Scope was set for IP address given to clients
+   
+
+![Join a Client to the Domain](path/to/screenshot5.png)
+
+
+## Step 7: PowerShell Script
+
+1.  Use a powershell script to create multiple user accounts in Active Directory
+2. 
+3. 
+
+![Join a Client to the Domain](path/to/screenshot5.png)
+
+
 
 ## Summary
 
