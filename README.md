@@ -41,7 +41,7 @@ The end goal of this home lab to set up Active Directory, including creating use
 2. Allows client to access interent through domain controller 
 
 
-![Join a Client to the Domain](path/to/screenshot5.png)
+![Join a Client to the Domain](https://i.imgur.com/uKF9WaM.png)
 
 
 
